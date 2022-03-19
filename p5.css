@@ -1,0 +1,49 @@
+header
+{
+    width: 100%; height: 70px; 
+    background-color: rgb(245, 215, 135);
+}
+.underheader{display: grid; grid-template-columns: 100%; color:rgb(76, 96, 160); margin-top: 10px;height: 40px;}
+.mybody{display: grid; grid-template-columns:10% 80% 10%;}
+.row{display: grid; grid-template-columns: 45% 45%; grid-column-gap: 2em; margin:1em 0em 1em 0em;}
+.col{text-align: left; }
+.row-35-65{display: grid; grid-template-columns: 35% 65%;}
+h2{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#shop{padding:25px 0px 0px 0px; width:50px; height:50px; }
+input {border-radius: 5px;}
+.input{border:1px outset silver;border-radius: 5px;padding:10px 0px 0px 10px}
+button{width:100px; background-color:rgb(119, 119, 240); border-radius: 10px;}
+footer{
+    display: grid; 
+    grid-template-columns:10% 30% 60%;
+    width: 100%; height: 70px; 
+    background-color: rgb(245, 215, 135);
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: small; color: cornsilk;
+}
+footer div{color:rgb(0, 0, 0);}
+.mytable
+{
+    margin:2em 0em 0em 0em;
+}
+.mycaption
+{
+    text-align: center;
+}
+.myrow
+{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+.myrow-3
+{
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+}
+.mycol
+{
+    height:40px;
+    background-color: rgb(245, 215, 135);
+    border:1px solid;
+    text-align: center;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" type="text/css" href="p5.css">
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>5hops</title>
+    </head>
+    <body>
+        <header></header>
+        <div class="underheader">
+            <div></div>
+        </div>
+        <div class="mybody">
+            <div></div>
+            <div class="main">
+                <div class="row">
+                    <div class="col">
+                        <div class="input">
+                            <form name="express" action="#" method="POST">
+                            <div class="row">
+                                <div class="col"><label>Наименование товара: </label></div><div class="col"><input id="fname" type="text" placeholder="exmaple: BitCoin"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col"><label>Стоиомсть, &#8381;: </label></div><div class="col"><input id="price" type="text" placeholder="exmaple: 100"></div>
+                            </div>
+                            </form>
+                            <div class="row">
+                                <div class="col"><button onmousedown="check(event)" onmouseup="check(event)">Добавить в корзину</button></div>
+                            </div>
+                            <div class="row">
+                                <div class="col"><button onmousedown="Caclulate(event)" onmouseup="Caclulate(event)">Вычислить стоимость</button></div><div class="col"><input disabled="disabled" id="output" type="text" placeholder='0.00&#8381;'></div>
+                            </div>
+                        </div>
+                        <div class="mytable">
+                            <div class="mycaption"><h2>Каталог товаров</h2></div>
+                            <div class="myrow">
+                                <div class="mycol">
+                                    <strong>Наименование товара</strong>
+                                </div>
+                                <div class="mycol">
+                                    <strong>Стоимость, &#8381;</strong>
+                                </div>
+                            </div>
+                            <div id="choosetable">
+                                <div class="myrow">
+                                    <div class="mycol">
+                                    Сырок творожный
+                                    </div>
+                                    <div class="mycol">
+                                        49.90
+                                    </div>
+                                </div>
+                                <div class="myrow">
+                                    <div class="mycol">
+                                        Виноград Киш-Миш
+                                    </div>
+                                    <div class="mycol">
+                                        89.90
+                                    </div>
+                                </div>
+                                <div class="myrow">
+                                    <div class="mycol">
+                                        Картофель фасованный, 3кг
+                                    </div>
+                                    <div class="mycol">
+                                        159.90
+                                    </div>
+                                </div>
+                                <div class="myrow">
+                                    <div class="mycol">
+                                    Окорок свиной
+                                    </div>
+                                    <div class="mycol">
+                                        289.90
+                                    </div>
+                                </div>
+                                <div class="myrow">
+                                    <div class="mycol">
+                                    Сметана 20% 300г
+                                    </div>
+                                    <div class="mycol">
+                                        74.90
+                                    </div>
+                                </div>
+                                <div class="myrow">
+                                    <div class="mycol">
+                                    Молоко Простоквашино отборное
+                                    </div>
+                                    <div class="mycol">
+                                        49.90
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row-35-65">
+                            <div class="col"><h2>Корзина покупателя</h2></div><div class="col"><img id="shop" alt="shopping-cart" src="shopping-cart.png"></div>
+                        </div>
+                        <div class="mytable">
+                            <div class="myrow-3">
+                                <div class="mycol">
+                                    <strong>Наименование товара</strong>
+                                </div>
+                                <div class="mycol">
+                                    <strong>Стоимость, &#8381;</strong>
+                                </div>
+                                <div class="mycol">
+                                    <strong>Кол-во</strong>
+                                </div>
+                            </div>
+                            <div id="dynamictable">
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+        </div>
+        <footer>
+    <div></div>
+    <div>
+    Разработано в НОЦ "У меня дома"<br/>
+    Служба поддержки:<br/>
+    тел.: 8 904 121-70-95<br/>
+    email: shlyuzhasiv@student.bmstu.ru
+    </div>
+    <div></div>
+    </footer>
+    <script src="p5.js">
+    </script>
+    </body>
+</html>
